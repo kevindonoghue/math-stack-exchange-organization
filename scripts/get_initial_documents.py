@@ -8,12 +8,12 @@ import os
 
 
 
-db = f'sqlite:///../mse.db'
+db = f'sqlite:///../data/mse.db'
 
 
 print('getting initial document files')
 
-os.makedirs('../records')
+os.makedirs('../records', exist_ok=True)
 
 query = \
 """

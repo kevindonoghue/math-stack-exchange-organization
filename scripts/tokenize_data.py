@@ -15,7 +15,7 @@ from gensim.parsing.preprocessing import remove_stopwords
 from nltk.tokenize import RegexpTokenizer
 from nltk.stem.wordnet import WordNetLemmatizer
 
-db = 'sqlite:///../mse.db'
+db = 'sqlite:///../data/mse.db'
 
 def tokenize():
 
