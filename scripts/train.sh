@@ -1,9 +1,9 @@
 #! /bin/bash
 
 
-let num_levels=2
-let num_topics=3
-let num_iterations=50
+let num_levels=3
+let num_topics=4
+let num_iterations=500
 
 # get documents for first level
 python3 get_initial_documents.py

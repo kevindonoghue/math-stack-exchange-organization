@@ -3,3 +3,4 @@ temp
 records
 mallet-2.0.8
 xml/*
+json_to_txt.py
